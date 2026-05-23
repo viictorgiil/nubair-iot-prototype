@@ -1,0 +1,18 @@
+# Credenciales — nunca subir al repositorio
+firmware/nubair_proto_mqtt/secrets.h
+
+# Arduino / IDE
+*.o
+*.elf
+*.bin
+*.map
+build/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
