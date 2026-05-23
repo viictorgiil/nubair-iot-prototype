@@ -293,6 +293,7 @@ docker exec -it nubair-mosquitto mosquitto_passwd /mosquitto/config/passwordfile
 - Proper mechanical coupling of the servo to the door mechanism
 - Fixed mounting of the ultrasonic sensor at the correct angle and distance
 - Clean wiring and cable management inside the cabin enclosure
+- Improve the 3D Design by making the joints more robust
 
 ### Firmware & Logic
 
@@ -312,4 +313,4 @@ docker exec -it nubair-mosquitto mosquitto_passwd /mosquitto/config/passwordfile
 
 ## Stack
 
-`ESP32` · `Arduino` · `MQTT` · `Mosquitto` · `Docker` · `Home Assistant` · `Raspberry Pi` · `I2C` · `OnShape (CAD)`
+`C++` · `ESP32` · `Arduino` · `MQTT` · `Mosquitto` · `Docker` · `Home Assistant` · `Raspberry Pi` · `I2C` · `OnShape (CAD)`
