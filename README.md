@@ -55,6 +55,8 @@ nubair-iot-prototype/
 │
 ├── cad/
 │   └── stl/                          # STL files to print
+|
+|
 └── .gitignore
 ```
 
