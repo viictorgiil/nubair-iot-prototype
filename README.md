@@ -1,5 +1,13 @@
 # NUBAIR – IoT Prototype: Occupancy Monitoring & Door Control
 
+[![C++](https://img.shields.io/badge/C++-Arduino-00599C)](https://www.arduino.cc/)
+[![ESP32](https://img.shields.io/badge/MCU-ESP32-E7352C)](https://www.espressif.com/en/products/socs/esp32)
+[![MQTT](https://img.shields.io/badge/Protocol-MQTT-660066)](https://mqtt.org/)
+[![Docker](https://img.shields.io/badge/Docker-Compose-2496ED)](https://www.docker.com/)
+[![Home Assistant](https://img.shields.io/badge/Home%20Assistant-2025-41BDF5)](https://www.home-assistant.io/)
+[![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-4B-A22846)](https://www.raspberrypi.com/)
+[![OnShape](https://img.shields.io/badge/CAD-OnShape-626262)](https://www.onshape.com/)
+
 > **Technical collaboration** for a seed-stage startup developing private rest modules for airports.  
 > My scope: IoT firmware, server infrastructure, and physical prototype.
 
@@ -314,7 +322,3 @@ docker exec -it nubair-mosquitto mosquitto_passwd /mosquitto/config/passwordfile
 
 - Occupancy history view in Home Assistant or a dedicated web interface
 - Real-time session timer visible while the cabin is in use
-
-## Stack
-
-`C++` · `ESP32` · `Arduino` · `MQTT` · `Mosquitto` · `Docker` · `Home Assistant` · `Raspberry Pi` · `I2C` · `OnShape (CAD)`
