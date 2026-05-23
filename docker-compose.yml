@@ -1,0 +1,21 @@
+services:
+  mosquitto:
+    image: eclipse-mosquitto:latest
+    container_name: nubair-mosquitto
+    restart: unless-stopped
+    ports:
+      - "1883:1883"
+    volumes:
+      - ./mosquitto/config:/mosquitto/config
+      - ./mosquitto/data:/mosquitto/data
+      - ./mosquitto/log:/mosquitto/log
+
+  homeassistant:
+    image: ghcr.io/home-assistant/home-assistant:stable
+    container_name: nubair-homeassistant
+    restart: unless-stopped
+    network_mode: host   # HA usa la red del host; por eso el broker se configura en 127.0.0.1
+    volumes:
+      - ./homeassistant:/config
+    environment:
+      - TZ=Europe/Madrid
