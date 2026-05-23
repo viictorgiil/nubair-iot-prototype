@@ -53,6 +53,8 @@ nubair-iot-prototype/
 ├── docs/
 │   └── images/                       # Diagrams, screenshots, prototype photos
 │
+├── cad/
+│   └── stl/                          # STL files to print
 └── .gitignore
 ```
 
