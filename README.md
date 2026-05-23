@@ -214,6 +214,8 @@ docker exec -i nubair-mosquitto mosquitto_pub \
   }'
 ```
 
+This must be run every time the Server is restarted. For a permament and future configuration, this will be changed.
+
 ### Home Assistant Dashboard Card
 
 The dashboard uses a `picture-elements` card with the cabin image as background and an interactive icon positioned over the door:
